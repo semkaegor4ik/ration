@@ -1,26 +1,12 @@
 package com.university.oop.diet.model;
 
-import lombok.Data;
+import org.springframework.security.core.GrantedAuthority;
 
-import javax.persistence.*;
+public enum Role implements GrantedAuthority {
+    ADMIN, USER;
 
-@Data
-@Entity
-@Table(name = "ROLES")
-public class Role {
-
-    @Id
-    @GeneratedValue(strategy= GenerationType.IDENTITY)
-    @Column(name = "ID")
-    private long id;
-
-    @Enumerated(EnumType.STRING)
-    @Column(name = "NAME")
-    private RoleType name;
-    @Column(name = "DESCRIPTION")
-    private String description;
-    @Column(name = "CREATED_ON")
-    private Long createdOn;
-    @Column(name = "MODIFIED_ON")
-    private Long modifiedOn;
+    @Override
+    public String getAuthority() {
+        return name();
+    }
 }

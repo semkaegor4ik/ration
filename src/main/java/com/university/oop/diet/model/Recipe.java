@@ -17,6 +17,9 @@ public class Recipe {
 
     private String description;
 
+    @Enumerated(EnumType.STRING)
+    private RecipeType recipeType;
+
     @ManyToMany
     @JoinColumn(name = "product_id")
     private List<Product> productList;

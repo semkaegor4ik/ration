@@ -2,47 +2,67 @@ package com.university.oop.diet.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
+import java.util.Collection;
 import java.util.Set;
-import java.util.stream.Collectors;
-
 
 @Data
 @AllArgsConstructor
-@Entity
-@Table(name = "Users")
-public class User {
+@Entity(name = "users")
+public class User implements UserDetails {
 
     @Id
-    @GeneratedValue(strategy= GenerationType.IDENTITY)
-    @Column(name = "ID")
+    @GeneratedValue(strategy= GenerationType.AUTO)
     private long id;
-    @Column(name = "FIRST_NAME")
     private String firstName;
-    @Column(name = "LAST_NAME")
     private String lastName;
-    @Column(name = "USERNAME")
-    private String username;
-    @Column(name = "PASSWORD")
     private String password;
-    @Column(name = "EMAIL")
     private String email;
+    @Enumerated(EnumType.STRING)
+    private Gender gender;
+    private double weight;
+    private double height;
+    @Enumerated(EnumType.STRING)
+    private Activity activity;
+    private boolean active;
 
-    @ManyToMany(fetch = FetchType.EAGER)
-    @JoinTable(name = "User_ROLES",
-            joinColumns =  @JoinColumn(name ="USER_ID"),inverseJoinColumns= @JoinColumn(name="ROLE_ID"))
+    @ElementCollection(targetClass = Role.class, fetch = FetchType.EAGER)
+    @CollectionTable(name = "users_role", joinColumns = @JoinColumn(name = "users_id"))
+    @Enumerated(EnumType.STRING)
     private Set<Role> roles;
 
     public User() { }
-    public UserDto toUserDto(){
-        UserDto userDto = new UserDto();
-        userDto.setId(this.id);
-        userDto.setEmail(this.email);
-        userDto.setFirstName(this.firstName);
-        userDto.setLastName(this.lastName);
-        userDto.setUsername(this.username);
-        userDto.setRole(this.roles.stream().map(role -> role.getName().toString()).collect(Collectors.toList()));
-        return userDto;
+
+    @Override
+    public Collection<? extends GrantedAuthority> getAuthorities() {
+        return roles;
+    }
+
+    @Override
+    public String getUsername() {
+        return email;
+    }
+
+    @Override
+    public boolean isAccountNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isAccountNonLocked() {
+        return true;
+    }
+
+    @Override
+    public boolean isCredentialsNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isEnabled() {
+        return active;
     }
 }
