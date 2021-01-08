@@ -105,6 +105,7 @@
             text-decoration: none;
             text-align: center;
             line-height: 88px;
+            border: none;
             transition: background-color 400ms;
         }
 
