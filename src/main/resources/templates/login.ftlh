@@ -7,7 +7,7 @@
     <title>Войти</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&display=swap" rel="stylesheet">
-<#--    <link rel="stylesheet" href="style.css">-->
+    <#--    <link rel="stylesheet" href="style.css">-->
     <style>
         :root {
             --black-color: #332F2F;
@@ -258,11 +258,11 @@
     <!-- <img class="bg" src="images/Фон войти.svg" alt=""> -->
     <div class="left">
         <p class="inPage">ВОЙТИ</p>
-<#--        <p class="email">Электронная почта</p>-->
-<#--        <input type="text" name="username">-->
-<#--        <p class="password">Пароль</p>-->
-<#--        <input type="password" name="password">-->
-<#--        <a href="#" class="logIn">Войти в аккаунт</a>-->
+        <#--        <p class="email">Электронная почта</p>-->
+        <#--        <input type="text" name="username">-->
+        <#--        <p class="password">Пароль</p>-->
+        <#--        <input type="password" name="password">-->
+        <#--        <a href="#" class="logIn">Войти в аккаунт</a>-->
         <form action="/login" method="post" class="form">
             <p class="email">Электронная почта</p>
             <input type="text" name="username">
