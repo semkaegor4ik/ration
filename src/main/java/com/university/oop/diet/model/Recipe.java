@@ -1,11 +1,8 @@
 package com.university.oop.diet.model;
 
 import lombok.Data;
-import org.hibernate.annotations.Any;
-import org.hibernate.annotations.ManyToAny;
 
 import javax.persistence.*;
-import java.util.List;
 import java.util.Map;
 
 @Data

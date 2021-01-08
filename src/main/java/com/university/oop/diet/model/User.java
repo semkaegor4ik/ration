@@ -25,6 +25,7 @@ public class User implements UserDetails {
     private Gender gender;
     private double weight;
     private double height;
+    private int age;
     @Enumerated(EnumType.STRING)
     private Activity activity;
     private boolean active;

@@ -1,7 +1,10 @@
 package com.university.oop.diet.model;
 
 import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.Getter;
 
+@Getter
 @AllArgsConstructor
 public enum Activity {
     MINIMUM(1),
