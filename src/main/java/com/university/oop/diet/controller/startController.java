@@ -26,10 +26,10 @@ public class startController {
 
     @GetMapping
     public String start() {
-        return "start";
+        return "/start";
     }
 
-    @RequestMapping(value = "all", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/all", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<Object>> list() {
         ArrayList<Object> list = new ArrayList<>();
         list.addAll(productService.getAll());
@@ -39,16 +39,16 @@ public class startController {
         return new ResponseEntity<>(list, HttpStatus.OK);
     }
 
-    @RequestMapping(value = "saveProduct", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/saveProduct", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Product> saveProduct(@RequestBody @Valid Product product){
         HttpHeaders headers = new HttpHeaders();
         if(product == null)
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         this.productService.save(product);
-        return new ResponseEntity<>(product,headers, HttpStatus.CREATED);
+        return new ResponseEntity<>(product, headers, HttpStatus.CREATED);
     }
 
-    @RequestMapping(value = "saveRecipe", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/saveRecipe", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Recipe> saveRecipe(@RequestBody @Valid Recipe recipe){
         HttpHeaders headers = new HttpHeaders();
         if(recipe == null)
