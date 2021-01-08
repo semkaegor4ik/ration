@@ -89,7 +89,7 @@
             top: 500px;
         }
 
-        a.logIn {
+        .left input[type="submit"]{
             position: absolute;
             width: 351px;
             height: 88px;
@@ -107,6 +107,26 @@
             line-height: 88px;
             transition: background-color 400ms;
         }
+
+
+        /*a.logIn {*/
+        /*    position: absolute;*/
+        /*    width: 351px;*/
+        /*    height: 88px;*/
+        /*    left: 131px;*/
+        /*    top: 720px;*/
+        /*    background: var(--green-color);*/
+        /*    box-shadow: 0px 0px 16px 4px rgba(47, 255, 29, 0.3), 13px 13px 26px rgba(0, 0, 0, 0.25), inset -2px 5px 6px rgba(255, 244, 244, 0.41);*/
+        /*    border-radius: 100px;*/
+        /*    font-style: normal;*/
+        /*    font-weight: 600;*/
+        /*    font-size: 29px;*/
+        /*    color: var(--white-color);*/
+        /*    text-decoration: none;*/
+        /*    text-align: center;*/
+        /*    line-height: 88px;*/
+        /*    transition: background-color 400ms;*/
+        /*}*/
 
         .left input[type="text"],
         [type="password"] {
@@ -184,7 +204,7 @@
             background: var(--orange-hover-color);
         }
 
-        a.logIn:hover {
+        .left input[type="submit"]:hover {
             background: var(--green-hover-color);
         }
 
@@ -220,7 +240,7 @@
             }
         }
 
-        a.logIn {
+        .left input[type="submit"] {
             animation: fadeIn 1000ms forwards;
             opacity: 0;
         }
@@ -238,11 +258,20 @@
     <!-- <img class="bg" src="images/Фон войти.svg" alt=""> -->
     <div class="left">
         <p class="inPage">ВОЙТИ</p>
-        <p class="email">Электронная почта</p>
-        <input type="text" name="username">
-        <p class="password">Пароль</p>
-        <input type="password" name="password">
-        <a href="#" class="logIn">Войти в аккаунт</a>
+<#--        <p class="email">Электронная почта</p>-->
+<#--        <input type="text" name="username">-->
+<#--        <p class="password">Пароль</p>-->
+<#--        <input type="password" name="password">-->
+<#--        <a href="#" class="logIn">Войти в аккаунт</a>-->
+        <form action="/login" method="post" class="form">
+            <p class="email">Электронная почта</p>
+            <input type="text" name="username">
+            <p class="password">Пароль</p>
+            <input type="password" name="password">
+            <input type="hidden" name="_csrf" value="${_csrf.token}">
+            <#--        <a href="#" class="logIn">Войти в аккаунт</a>-->
+            <div><input type="submit" class="button" value="Войти в аккаунт"/></div>
+        </form>
     </div>
 
     <div class="right">
@@ -251,6 +280,7 @@
             это займет меньше минуты</p>
         <a href="#" class="registrate">Зарегистрироваться</a>
     </div>
+
 </div>
 </body>
 </html>
