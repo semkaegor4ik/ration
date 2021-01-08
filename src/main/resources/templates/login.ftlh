@@ -34,7 +34,7 @@
             background-image: url(images/Фон\ войти.svg);
             background-position: right;
             background-repeat: no-repeat; */
-            background-image: url(images/bg_new.svg);
+            background-image: url(https://sun9-75.userapi.com/impf/hVs9VvyaOBZdn1pq-doahEsTSipzGLYVRJapdQ/zATBBLi-zb8.jpg?size=1920x1126&quality=96&proxy=1&sign=4631d3508bcf977862f4c71c986ae55d&type=album);
             background-repeat: no-repeat;
             background-position: bottom right;
             background-size: 100% auto;
@@ -101,7 +101,6 @@
             font-style: normal;
             font-weight: 600;
             font-size: 29px;
-            line-height: 35px;
             color: var(--white-color);
             text-decoration: none;
             text-align: center;
@@ -132,6 +131,7 @@
 
         .left input[type="password"] {
             top: 600px;
+            font-weight: 1000;
         }
 
         .right .welcome {
@@ -239,9 +239,9 @@
     <div class="left">
         <p class="inPage">ВОЙТИ</p>
         <p class="email">Электронная почта</p>
-        <input type="text">
+        <input type="text" name="username">
         <p class="password">Пароль</p>
-        <input type="password">
+        <input type="password" name="password">
         <a href="#" class="logIn">Войти в аккаунт</a>
     </div>
 
