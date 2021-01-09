@@ -23,6 +23,6 @@ public class TestRationController {
         public NormalRecipe getRecipes() {
             Authentication auth = SecurityContextHolder.getContext().getAuthentication();
             User myUser = (User)auth.getPrincipal();
-            return recipeBuilderService.getRecipe(RecipeType.BREAKFAST, myUser);
+            return recipeBuilderService.getRecipe(RecipeType.LUNCH, myUser);
         }
     }
