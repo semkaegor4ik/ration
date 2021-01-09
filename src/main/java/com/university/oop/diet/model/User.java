@@ -2,6 +2,7 @@ package com.university.oop.diet.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
@@ -11,14 +12,13 @@ import java.util.Set;
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 @Entity(name = "users")
 public class User implements UserDetails {
 
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
     private long id;
-    private String firstName;
-    private String lastName;
     private String password;
     private String email;
     @Enumerated(EnumType.STRING)
@@ -34,8 +34,6 @@ public class User implements UserDetails {
     @CollectionTable(name = "users_role", joinColumns = @JoinColumn(name = "users_id"))
     @Enumerated(EnumType.STRING)
     private Set<Role> roles;
-
-    public User() { }
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
