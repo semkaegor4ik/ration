@@ -3,7 +3,12 @@
 <@h.header>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Регистрация</title>
+        <#if name != "unknown">
+            <title>Изменить настройки</title>
+        <#else>
+            <title>Регистрация</title>
+        </#if>
+
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&display=swap" rel="stylesheet">
         <#--    <link rel="stylesheet" href="style.css">-->
@@ -271,7 +276,7 @@
 
         </div>
 
-        <#if isAdmin>
+        <#if name != "unknown">
             <div><input type="submit" class="button" value="Сохранить" /></div>
         <#else>
             <div><input type="submit" class="button" value="Зарегистрироваться" /></div>

@@ -107,7 +107,7 @@
                 color: var(--green-hover-color);
             }
 
-            <#if isAdmin>
+            <#if name != "unknown">
             .login-item:hover>.submenu {
                 display: flex;
             }
@@ -145,7 +145,7 @@
 
             <div class="login-item">
                 <a href=""><img src="https://psv4.userapi.com/c856332/u35211733/docs/d16/a2a1b79e2d67/user.png?extra=3f-5MfOQlFYLy5iQV7_cKxiQYidZS4Z2KRKBcStGMW8rM5rakI_ohx4erW1h_55XIbt4GxPgyBMB0Qc5W2-4Xlg0UmZaOOShLkyj7ZIX7dY63nA1J_E7PPmoDR3Wy4k0dJ6kNJkU-CPq4_UHjEKP"></a>
-                <#if isAdmin>
+                <#if name != "unknown">
                     <a href="" class="personal_area">Личный кабинет</a>
                     <ul class="submenu">
                         <li><a href="#">Посмотреть рацион</a></li>
