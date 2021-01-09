@@ -4,6 +4,8 @@ import com.university.oop.diet.model.*;
 import com.university.oop.diet.repository.RecipeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.Map;
 import java.util.stream.*;
 
 import java.util.List;
@@ -24,6 +26,8 @@ public class RecipeBuilderService {
         Double calories = gender.getStartCoefficient()+(gender.getWeightCoefficient() * user.getWeight() + (gender.getHeightCoefficient() * user.getHeight())-(gender.getAgeCoefficient() * user.getAge())) * user.getActivity().getCoefficient();
 
 
-        return new NormalRecipe(recipe.getName(), recipe.getDescription(), Stream.of(recipe.getProductList()).forEach((k,v)-> v.  calories*recipe.getRecipeType().getProcent())
+        return new NormalRecipe(recipe.getName(), recipe.getDescription(), recipe.getProductList().entrySet().stream()
+                .map(entry -> Map.entry(entry.getKey(), (entry.getValue() * calories * recipe.getRecipeType().getProcent() * 100) / entry.getKey().getCaloriesPerHundredGram()))
+                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue)));
     }
 }
