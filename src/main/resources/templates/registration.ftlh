@@ -225,8 +225,6 @@
         </header>
         <div class="questions">
             <form action="/registration" method="POST" name="GetInfoForm">
-                <!-- дописать файл, обрабатывающий полученные данные и метод -->
-
                 <p>Почта</p>
                 <input type="text" name="login">
 
@@ -267,9 +265,9 @@
                     <p><select name="activity">
                             <option value="u1">Минимальная</option>
                             <option value="u2">Слабая</option>
-                            <option value="u1">Средняя</option>
-                            <option value="u2">Высокая</option>
-                            <option value="u1">Экстра</option>
+                            <option value="u3">Средняя</option>
+                            <option value="u4">Высокая</option>
+                            <option value="u5">Экстра</option>
                         </select></p>
                 </form>
             </form>
