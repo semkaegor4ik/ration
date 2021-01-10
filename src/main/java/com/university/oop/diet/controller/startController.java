@@ -26,7 +26,7 @@ public class startController {
 
     @GetMapping
     public String start() {
-        return "/start";
+        return "main";
     }
 
     @RequestMapping(value = "/all", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
