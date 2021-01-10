@@ -165,7 +165,7 @@
                 </li>
 
                 <li>
-                    <a href="#" class="ration">Создать рацион</a>
+                    <a href="/ration" class="ration">Создать рацион</a>
                 </li>
             </ul>
 

@@ -695,7 +695,7 @@
                 </p2>
                 <a href="/registration" class="btn">Получить рацион</a>
                 <#if name != "unknown">
-                    <a href="#" class="btn">Получить рацион</a>
+                    <a href="/ration" class="btn">Получить рацион</a>
                 <#else>
                     <a href="/registration" class="btn">Получить рацион</a>
                 </#if>

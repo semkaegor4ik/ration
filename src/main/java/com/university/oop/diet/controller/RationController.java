@@ -16,7 +16,7 @@ public class RationController {
     @Autowired
     private RecipeBuilderService recipeBuilderService;
 
-    @GetMapping()
+    @GetMapping("/get")
     public String getRecipes(@AuthenticationPrincipal User user, Model model) {
         for (RecipeType recipeType:
         RecipeType.values()) {
@@ -24,4 +24,11 @@ public class RationController {
         }
         return "recipes";
     }
+
+    @GetMapping()
+    public String recipes() {
+
+        return "ration";
+    }
+
 }
