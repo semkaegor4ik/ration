@@ -305,7 +305,8 @@
 
             .recipe_products {
                 text-align: justify;
-                font-size: 23px;
+                font-size: 17px;
+                padding-top: 0.5em;
             }
 
             /* Images Section */

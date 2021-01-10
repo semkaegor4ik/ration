@@ -709,7 +709,7 @@
             <img class="white_elips" src="https://psv4.userapi.com/c536436/u35211733/docs/d34/e6a267981712/white_elips.png?extra=YdGJiJ_2AmsGVwjokrtSnLSDZKUC7ZGG1IwvJIzfZkowaix7cVytKhijx-hvoRfCsVuUdSqT6usXfY_XA2cVN3vV8Xbwn8ziMlnx2kvF2BShUM7Fp6lwviOPp8rRNiAHP4ck3FndAmWtXm0edQrg" alt="">
 
             <div class="vegetables-container">
-                <img class="tomato" src="https://psv4.userapi.com/c536436/u35211733/docs/d38/a59637adc3ef/tomato.png?extra=hBWMVoEuNE5h-LLmV1QgtKk53nutVejwRJ0YP3jGlqEnmNdu21GW2B3lV2E26_JvAvVvDP7KoNuW1LqJD5BnBDut6pRmGtkOWwcRE-WOl1ce62ebd89Q74vR2yI7-6f5Ts5q37fslvydWpV-3wrE" alt="">
+                <img class="tomato" src="https://cdn.discordapp.com/attachments/784876687376121916/797941288912945223/tomato.png" alt="">
                 <img class="cucumber" src="https://psv4.userapi.com/c536436/u35211733/docs/d23/7e7b272b47e1/cucumber.png?extra=ySq6plMuLB4W32aO0Gf7BiYIf9VboncRN6qi99283dPxAtc1fPbssgsyjbf81JToo0k1XCg4dp4EQDZ4wWGPk5oy5u4XWlhXIwCR00P174mPkTckSnyV_Q3BHROtegzWDPOZ7XETuTK7higxOhrd" alt="">
                 <img class="olives" src="https://psv4.userapi.com/c536436/u35211733/docs/d23/48fde90fa343/olives.png?extra=Hpbkfh_nx43bOPloBKII8idf43fyALPXuMj-XfEQQegdNqSVvANe3BudSc00ILD2a-Eanje9pf0FMGskBuT7ky1nxahoKDkpamVi8_S5ULl0PZJ6-4_rmJZZ1Z_AW-LcFAgNED2fCIxReaM_Ceaa" alt="">
             </div>
