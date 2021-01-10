@@ -27,7 +27,14 @@ public class RegistrationController {
 
     @GetMapping("/login")
     public String login() {
-        return "login";
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        try{
+            User myUser = (User)auth.getPrincipal();
+        }
+        catch (ClassCastException ex){
+            return "login";
+        }
+            return "redirect:/registration";
     }
 
     @PostMapping("/registration")

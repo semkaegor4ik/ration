@@ -150,7 +150,11 @@
                     <ul class="submenu">
                         <li><a href="#">Посмотреть рацион</a></li>
                         <li><a href="#">Изменить настройки</a></li>
-                        <li><a href="#">Выйти</a></li>
+                        <form action="/logout" method="post">
+                            <input class="button" type="submit" value="Выйти"/>
+                            <input type="hidden" name="_csrf" value="${_csrf.token}">
+                        </form>
+                        <li><a href="/logout">Выйти</a></li>
                     </ul>
                 <#else>
                     <a href="/login" class="personal_area">Зарегистироваться/Войти</a>
