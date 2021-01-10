@@ -24,11 +24,6 @@ public class startController {
     @Autowired
     private RecipeService recipeService;
 
-    @GetMapping
-    public String start() {
-        return "main";
-    }
-
     @RequestMapping(value = "/all", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<Object>> list() {
         ArrayList<Object> list = new ArrayList<>();

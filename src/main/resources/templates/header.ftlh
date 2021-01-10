@@ -128,14 +128,14 @@
     <div class="wrapper">
         <nav class="desktop-nav">
             <div class="logo">
-                <a href="#">
+                <a href="/">
                     <img src="https://psv4.userapi.com/c856332/u35211733/docs/d4/db70a96df3ac/logo.png?extra=gOuaQzHaslVthhjf54Qvuu5RjgWodnhR_WGxGZPLBM1eIYSg5op9c2wdesY1o644SFkeniPtGv5clJs784ekT5on6asIr0lJi0Q9xGoSN48RCdpeA_w2aBkpyF4on5TYQSFE7RPwqRO8T73mFQ2-" alt="">
                 </a>
             </div>
 
             <ul class="menu-items">
                 <li>
-                    <a href="#" class="active">Главная</a>
+                    <a href="/" class="active">Главная</a>
                 </li>
 
                 <li>
@@ -153,7 +153,7 @@
                         <li><a href="#">Выйти</a></li>
                     </ul>
                 <#else>
-                    <a href="" class="personal_area">Зарегистироваться/Войти</a>
+                    <a href="/login" class="personal_area">Зарегистироваться/Войти</a>
                 </#if>
             </div>
         </nav>
