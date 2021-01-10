@@ -11,6 +11,6 @@ public class NormalRecipe {
 
     private String description;
 
-    private Map<Product, Double> products;
+    private Map<String, Integer> products;
 
 }

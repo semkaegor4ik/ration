@@ -27,7 +27,7 @@ public class RecipeBuilderService {
 
 
         return new NormalRecipe(recipe.getName(), recipe.getDescription(), recipe.getProductList().entrySet().stream()
-                .map(entry -> Map.entry(entry.getKey(), entry.getValue() * (calories * recipe.getRecipeType().getProcent() * 100) / entry.getKey().getCaloriesPerHundredGram()))
+                .map(entry -> Map.entry(entry.getKey().getName(), (int) (entry.getValue() * (calories * recipe.getRecipeType().getProcent() * 100) / entry.getKey().getCaloriesPerHundredGram())))
                 .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue)));
     }
 }

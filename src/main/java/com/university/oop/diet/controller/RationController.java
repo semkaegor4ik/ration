@@ -1,5 +1,6 @@
 package com.university.oop.diet.controller;
 
+import com.university.oop.diet.model.NormalRecipe;
 import com.university.oop.diet.model.RecipeType;
 import com.university.oop.diet.model.User;
 import com.university.oop.diet.service.RecipeBuilderService;
