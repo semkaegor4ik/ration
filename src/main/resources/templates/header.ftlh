@@ -108,7 +108,7 @@
                 color: var(--green-hover-color);
             }
 
-            input[type="submit"]{
+            .logout_btn {
                 position: absolute;
                 left: 28px;
                 width: 200px;
@@ -129,7 +129,7 @@
                 transition: background-color 400ms;
             }
 
-            input[type="submit"]:hover {
+            .logout_btn:hover {
                 background: var(--green-hover-color);
             }
 
@@ -174,10 +174,10 @@
                 <#if name != "unknown">
                     <a href="" class="personal_area">Личный кабинет</a>
                     <ul class="submenu">
-                        <li><a href="#">Посмотреть рацион</a></li>
+                        <li><a href="/ration">Посмотреть рацион</a></li>
                         <li><a href="/registration">Изменить настройки</a></li>
                         <form action="/logout" method="post">
-                            <input class="button" type="submit" value="Выйти"/>
+                            <input class="logout_btn" type="submit" value="Выйти"/>
                             <input type="hidden" name="_csrf" value="${_csrf.token}">
                         </form>
                         <#--                        <li><a href="#">Выйти</a></li>-->

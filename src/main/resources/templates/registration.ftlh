@@ -148,7 +148,7 @@
                 padding-top: 2em;
             }
 
-            input[type="submit"] {
+            .bttn {
                 position: absolute;
                 width: 351px;
                 height: 88px;
@@ -176,7 +176,7 @@
                 padding-bottom: 1em;
             }
 
-            input[type="submit"]:hover {
+            .bttn:hover {
                 background: var(--green-hover-color);
             }
 
@@ -234,8 +234,8 @@
                 <p>Пол</p>
                 <!-- <input type="text" name="gender"> -->
                 <p><select name="gender">
-                        <option value="u1">Женский</option>
-                        <option value="u2">Мужской</option>
+                        <option value="FEMALE">Женский</option>
+                        <option value="MALE">Мужской</option>
                     </select></p>
 
                 <p>Рост (см)</p>
@@ -260,17 +260,18 @@
                 </ol>
 
                 <p><select name="activity">
-                        <option value="u1">Минимальная</option>
-                        <option value="u2">Слабая</option>
-                        <option value="u3">Средняя</option>
-                        <option value="u4">Высокая</option>
-                        <option value="u5">Экстра</option>
+                        <option value="MINIMUM">Минимальная</option>
+                        <option value="LOW">Слабая</option>
+                        <option value="NORMAL">Средняя</option>
+                        <option value="HIGH">Высокая</option>
+                        <option value="EXTRA">Экстра</option>
                     </select></p>
+                <input type="hidden" name="_csrf" value="${_csrf.token}">
             </div>
             <#if name != "unknown">
-                <div><input type="submit" class="button" value="Сохранить" /></div>
+                <div><input type="submit" class="bttn" value="Сохранить" /></div>
             <#else>
-                <div><input type="submit" class="button" value="Зарегистрироваться" /></div>
+                <div><input type="submit" class="bttn" value="Зарегистрироваться" /></div>
             </#if>
         </form>
     </div>
