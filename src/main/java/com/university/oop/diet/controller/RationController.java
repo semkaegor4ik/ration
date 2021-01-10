@@ -17,18 +17,12 @@ public class RationController {
     @Autowired
     private RecipeBuilderService recipeBuilderService;
 
-    @GetMapping("/get")
+    @GetMapping()
     public String getRecipes(@AuthenticationPrincipal User user, Model model) {
         for (RecipeType recipeType:
         RecipeType.values()) {
             model.addAttribute(String.valueOf(recipeType), recipeBuilderService.getRecipe(recipeType, user));
         }
-        return "recipes";
-    }
-
-    @GetMapping()
-    public String recipes() {
-
         return "ration";
     }
 
