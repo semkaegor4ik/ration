@@ -14,11 +14,11 @@ public class Product {
 
     private String name;
 
-    private int caloriesPerHundredGram;
+    private double caloriesPerHundredGram;
 
-    private int proteins;
+    private double proteins;
 
-    private int fats;
+    private double fats;
 
-    private int carbohydrates;
+    private double carbohydrates;
 }

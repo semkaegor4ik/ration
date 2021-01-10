@@ -9,5 +9,6 @@ public enum RecipeType {
     BREAKFAST(0.25),
     LUNCH(0.4),
     DINNER(0.25);
+
     private final double procent;
 }
