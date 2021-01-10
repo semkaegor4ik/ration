@@ -40,10 +40,12 @@ public class RegistrationController {
             model.put("message", "Пользователь занят");
             return "registration";
         }
+        System.out.println(user.getActivity());
+        System.out.println(user.getGender());
         user.setActive(true);
         user.setRoles(Collections.singleton(Role.USER));
         userRepo.save(user);
-        return "redirect:/login";
+        return "registration";
     }
 
 
