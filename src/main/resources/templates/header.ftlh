@@ -96,6 +96,7 @@
                 list-style: none;
                 white-space: nowrap;
                 padding: 1em;
+                height: 190px;
             }
 
             .login-item ul li {
@@ -105,6 +106,31 @@
 
             .desktop-nav .menu-items a:hover {
                 color: var(--green-hover-color);
+            }
+
+            input[type="submit"]{
+                position: absolute;
+                left: 28px;
+                width: 200px;
+                background: var(--green-color);
+                box-shadow: 0px 0px 16px 4px rgba(47, 255, 29, 0.3), 13px 13px 26px rgba(0, 0, 0, 0.25), inset -2px 5px 6px rgba(255, 244, 244, 0.41);
+                border-radius: 100px;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 17px;
+                line-height: 34px;
+                color: var(--white-color);
+                text-decoration: none;
+                text-align: center;
+                background: var(--brightGreen-color);
+                font-family: "Montserrat";
+                /*line-height: 88px;*/
+                border: none;
+                transition: background-color 400ms;
+            }
+
+            input[type="submit"]:hover {
+                background: var(--green-hover-color);
             }
 
             <#if name != "unknown">
@@ -149,12 +175,12 @@
                     <a href="" class="personal_area">Личный кабинет</a>
                     <ul class="submenu">
                         <li><a href="#">Посмотреть рацион</a></li>
-                        <li><a href="#">Изменить настройки</a></li>
+                        <li><a href="/registration">Изменить настройки</a></li>
                         <form action="/logout" method="post">
                             <input class="button" type="submit" value="Выйти"/>
                             <input type="hidden" name="_csrf" value="${_csrf.token}">
                         </form>
-                        <li><a href="/logout">Выйти</a></li>
+                        <#--                        <li><a href="#">Выйти</a></li>-->
                     </ul>
                 <#else>
                     <a href="/login" class="personal_area">Зарегистироваться/Войти</a>
