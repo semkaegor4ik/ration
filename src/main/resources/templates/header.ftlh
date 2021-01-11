@@ -175,7 +175,7 @@
                     <a href="" class="personal_area">Личный кабинет</a>
                     <ul class="submenu">
                         <li><a href="/ration">Посмотреть рацион</a></li>
-                        <li><a href="/registration">Изменить настройки</a></li>
+                        <li><a href="/edit_profile">Изменить настройки</a></li>
                         <form action="/logout" method="post">
                             <input class="logout_btn" type="submit" value="Выйти"/>
                             <input type="hidden" name="_csrf" value="${_csrf.token}">
