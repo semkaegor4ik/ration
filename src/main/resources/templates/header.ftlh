@@ -167,6 +167,10 @@
                 <li>
                     <a href="/ration" class="ration">Создать рацион</a>
                 </li>
+
+                <li>
+                    <a href="/info" class="info">Информация</a>
+                </li>
             </ul>
 
             <div class="login-item">

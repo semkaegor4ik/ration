@@ -702,16 +702,16 @@
             </div>
 
             <div class="right">
-                <img class="salad" src="https://psv4.userapi.com/c536436/u35211733/docs/d39/6589f324e0f0/salad.png?extra=AfaC_R133pzwufc5U0dUI4zZSiXqpqv4_oSeQXw-nJJoz5JwjHaH1DQNRvGCJDegPnuitOOBExebret8L5h8HIM-HxQ0m8PgaMDuHqCwJ6W3nMMPTqjjIRU4Z61_50VnrmIZufGfMq_IWMVEj4w1" alt="" />
+                <img class="salad" src="https://cdn.discordapp.com/attachments/784876687376121916/798183408609656863/058_1.png" alt="" />
             </div>
 
-            <img class="homeBG" src="https://psv4.userapi.com/c536436/u35211733/docs/d17/81f95a4fe8ef/HomeBG.png?extra=NlUsjtc1wbXF9hOeP4kKb5ugJOpJMLftf4PjRbaAGaJczEmZXDxq5o6vPxbgpF26NtBnflpx5Bx8RNspAy1xPbj2-dkfdLtsKwyBfWXSs4XKxI_77Z5UK4TSGXSfQalen5OJFDOzJGBmflF3MFwA" alt="">
-            <img class="white_elips" src="https://psv4.userapi.com/c536436/u35211733/docs/d34/e6a267981712/white_elips.png?extra=YdGJiJ_2AmsGVwjokrtSnLSDZKUC7ZGG1IwvJIzfZkowaix7cVytKhijx-hvoRfCsVuUdSqT6usXfY_XA2cVN3vV8Xbwn8ziMlnx2kvF2BShUM7Fp6lwviOPp8rRNiAHP4ck3FndAmWtXm0edQrg" alt="">
+            <img class="homeBG" src="https://cdn.discordapp.com/attachments/784876687376121916/798194773537980416/HomeBG.png" alt="">
+            <img class="white_elips" src="https://cdn.discordapp.com/attachments/784876687376121916/798207935972638790/white_elips.png" alt="">
 
             <div class="vegetables-container">
                 <img class="tomato" src="https://cdn.discordapp.com/attachments/784876687376121916/797941288912945223/tomato.png" alt="">
-                <img class="cucumber" src="https://psv4.userapi.com/c536436/u35211733/docs/d23/7e7b272b47e1/cucumber.png?extra=ySq6plMuLB4W32aO0Gf7BiYIf9VboncRN6qi99283dPxAtc1fPbssgsyjbf81JToo0k1XCg4dp4EQDZ4wWGPk5oy5u4XWlhXIwCR00P174mPkTckSnyV_Q3BHROtegzWDPOZ7XETuTK7higxOhrd" alt="">
-                <img class="olives" src="https://psv4.userapi.com/c536436/u35211733/docs/d23/48fde90fa343/olives.png?extra=Hpbkfh_nx43bOPloBKII8idf43fyALPXuMj-XfEQQegdNqSVvANe3BudSc00ILD2a-Eanje9pf0FMGskBuT7ky1nxahoKDkpamVi8_S5ULl0PZJ6-4_rmJZZ1Z_AW-LcFAgNED2fCIxReaM_Ceaa" alt="">
+                <img class="cucumber" src="https://cdn.discordapp.com/attachments/784876687376121916/798208207339257886/image_5.png" alt="">
+                <img class="olives" src="https://cdn.discordapp.com/attachments/784876687376121916/798183904963723295/olives.png" alt="">
             </div>
         </header>
 
@@ -721,9 +721,9 @@
             <h1>В чем плюсы правильного питания?</h1>
 
             <div class="plus-container">
-                <img class="energy" src="https://psv4.userapi.com/c536436/u35211733/docs/d21/65205f1ad1e7/energy.png?extra=VRsuHaA6uGSMRo1ws9VmreY3xxFSUqoSCPj_CgxS5lf3bJnnvt5m-Mmp2A-lxcHtLU-nQvyxNK1V4bozCHSGsZoTy-GLjqsU2QHgnT1QBYY_1ZaFKlN0htthmtLazUJVexKaAWAhz0_ND-yRn7Qi" alt="">
-                <img class="health" src="https://psv4.userapi.com/c536436/u35211733/docs/d16/594eb20831eb/health.png?extra=WG1Vf76MULYcyIlkGeCp-erZ00T46-6aSh50Lrq7pzk2sMnAotYvqx7_F4qvAp_7lxxi-VOyLsLmKFAuh3Ym9bNg4nopVMmFPgLxav54ErJfIV2_E4qFIlI0B502AbACN8Z9YDC37a119XLtKEi0" alt="">
-                <img class="body" src="https://psv4.userapi.com/c536436/u35211733/docs/d12/dbea1bbf5308/body.png?extra=kNQTyXxbLcHo_vm_1ayDKWHYLxr-mNHMDiVMWv1XHMAmYefll8rssYKQkgPzoWIaFRpeLtBORssvzU54s7ZQSpnE9Oebw-wbNFt-vzOLo__lgrverQ5bU0FzlBBrK_MAB-Q0aYZgtUhm59cfUFAU" alt="">
+                <img class="energy" src="https://cdn.discordapp.com/attachments/784876687376121916/798208467687964702/88d27779fe6d4d15.png" alt="">
+                <img class="health" src="https://cdn.discordapp.com/attachments/784876687376121916/798208461229523014/62ca8a5b3320687d.png" alt="">
+                <img class="body" src="https://cdn.discordapp.com/attachments/784876687376121916/798208464429121596/8376cebcfef62f4f.png" alt="">
             </div>
 
             <div class="plus-text-energy">
@@ -755,19 +755,19 @@
             <h1>Основные принципы правильного питания</h1>
 
             <div class="number-container">
-                <img class="one" src="https://psv4.userapi.com/c536436/u35211733/docs/d39/095719cce1f6/1.png?extra=u1NI0aBy2wy6-ltKjImiS80nXQwLTIuAyY6YW-5JqKazHRfUXA5FF3HxYuea0IXdh--sdyjgDmC356lN1hutRL52jbD2UsdpJS1MLBs8Ft37qlKN83k6ormPhZEfJDQ9fazwWxBP57Vh21vKrVWu" alt="">
-                <img class="two" src="https://psv4.userapi.com/c536436/u35211733/docs/d29/b498e44bc16c/2.png?extra=FKA-bgEU8bT9m76SixX-OYJt2fRUF3EcXpVGDPBvWd4ZG19F5H80TbH9VQPy_xS7Le33UKSI5kkUFCNAsRhQo9jAQgrbg2TpPMxmbRIIaZTISQFh4TZ5kr1qHV3qniX_jvHql7ISbCeeCAJqcvjy" alt="">
-                <img class="three" src="https://psv4.userapi.com/c536436/u35211733/docs/d15/82fcf4928b42/3.png?extra=JaQSbyKvXtLZROjLybERoGp50Pg6GX1qCCj8S6VJ24cr5r1ZPLRgMq6wcx1gS7bwqRbbce-gV2lD2mM_mHEI8n2uuCGFVhdAw1oG2eomiQt8N_aLeGjHljUmJC37j7fDnQmClcGGVoQNEMBprYSN" alt="">
-                <img class="four" src="https://psv4.userapi.com/c536436/u35211733/docs/d11/9cff9f457353/4.png?extra=22Nfnz7JnaPjVkuT9k5lzCjvOee9oag3Nxq7vOIs25f1rCwpgoFbdbSHJSk4mdPp3TplmdgmETSHpgdKj_eU8ucBYDthfL8kA4wbnBIi_2wmFk8C3YPZCsX9N48QHE-_sevGqNFP1qBjlmlAkTiR" alt="">
-                <img class="five" src="https://psv4.userapi.com/c536436/u35211733/docs/d49/13b56944f1b3/5.png?extra=Iote2PA_JF1xIbfWxlgmWTIruEdSDFVt7eajU8qAoLoPPk6WikexUQG1Ik0__FKsjE7wC4n_AZsxGbHOLIzpxnnzHWHz6NXzzJtNtdJH2ZGZ7x03KmH--9l49tR_qZ6U3DBl6bPSd236kcylfyrv" alt="">
+                <img class="one" src="https://cdn.discordapp.com/attachments/784876687376121916/798208739961995274/1.png" alt="">
+                <img class="two" src="https://cdn.discordapp.com/attachments/784876687376121916/798208743698464828/2.png" alt="">
+                <img class="three" src="https://cdn.discordapp.com/attachments/784876687376121916/798208746856775710/3.png" alt="">
+                <img class="four" src=https://cdn.discordapp.com/attachments/784876687376121916/798208749977337856/4.png" alt="">
+                <img class="five" src="https://cdn.discordapp.com/attachments/784876687376121916/798208752524066896/5.png" alt="">
             </div>
 
             <div class="photo-container">
-                <img class="first_photo" src="https://psv4.userapi.com/c536436/u35211733/docs/d15/a9bd38b39f33/first_photo.png?extra=Mo4-3XiPvx_aurAp8tDOw6YEPJovrRgftHfUBUrEw-5Y2xtB0lHDdVrYJRGQQi4PPKmT-Yho66wr-20rj82XHVhuDLvupONg-W0Hbl32S8cekwueALYP94QlOBNgkgNqquvSQ6WSsa5jd6uH5UDe" alt="">
-                <img class="second_photo" src="https://psv4.userapi.com/c536436/u35211733/docs/d45/44b97ccb9546/second_photo.png?extra=ojpcY3S6EAVTlWbretG_Dia-BFcHCUzjQwMT-lgXHePWMvga_pB0c86JAsX6cyeqIkiBBZJkPk-bz7-v2wjbg2eo47VypCsZRjlMQpyZqJRUH9S0LrNHdDqFoJbSwnPc4kQOy9nRPDDRZ2h0PTQJ" alt="">
-                <img class="third_photo" src="https://psv4.userapi.com/c536436/u35211733/docs/d34/ab64d8b34649/third_photo.png?extra=AG4C-kIrwCs3zH3YVDA1gpakj5Jfza5QZPKU6ucwR5G7eRttzvUMAZ18oWAvXTXDGg_Ezcqmj-7or37xlVHY2eZFn1A7XpLYW0LQH0Hf63uiTI7V4ULY73K2opliHsGCCkU1opcxiF_rAvEVAPEZ" alt="">
-                <img class="four_photo" src="https://psv4.userapi.com/c536436/u35211733/docs/d27/8916fa46c947/four_photo.png?extra=aIpWXWNtCOLC_q1ZcxkIad8WVRikwqpDj88-g6FHm0W_cz-sO44wz8szjw7qyjSN_9JOIbXw2CA-iwep5b_urPW8qEmgKV6mTe4YQ2tveEsonvsPlaP7-fUMoSWj6XWWYgYCUqGFYJroUQJnlGw9" alt="">
-                <img class="five_photo" src="https://psv4.userapi.com/c536436/u35211733/docs/d3/39f3fffada51/five_photo.png?extra=kApwXDk_qsm5yKdprYEaxdGDafPhxw3hNnIDHLpBO44il88bJNbXMBmbgCxzfajInrWGvcT32pPT_tgC0SkET-NQZbjvpX3eNDJGrltq864qh5-3FvxP3A0cHe35INIMSqo4eFcMTqv40CrmA0Hi" alt="">
+                <img class="first_photo" src="https://cdn.discordapp.com/attachments/784876687376121916/798208763135787048/first_photo.png" alt="">
+                <img class="second_photo" src="https://cdn.discordapp.com/attachments/784876687376121916/798208767350407178/second_photo.png" alt="">
+                <img class="third_photo" src="https://cdn.discordapp.com/attachments/784876687376121916/798208769204027452/third_photo.png" alt="">
+                <img class="four_photo" src="https://cdn.discordapp.com/attachments/784876687376121916/798208764263006258/four_photo.png" alt="">
+                <img class="five_photo" src="https://cdn.discordapp.com/attachments/784876687376121916/798208762543734825/five_photo.png" alt="">
             </div>
 
             <div class="first-principe-text">
