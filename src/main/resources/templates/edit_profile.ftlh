@@ -234,7 +234,7 @@
                         <option value="MALE">Мужской</option>
                         <option selected disabled hidden >
                             <#if us.gender == "FEMALE">
-                                value="MALE"
+                                Женский
                             <#else>
                                 Мужской
                             </#if>
