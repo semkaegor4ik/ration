@@ -393,9 +393,9 @@
                 </div>
 
                 <div class="rectangle-container">
-                    <img class="rectangle1" src="https://psv4.userapi.com/c532036/u116093025/docs/d21/8969934741e9/rectangle1.png?extra=TCekxZofHhZYnsjIVoIbQGbprv4pDD6IbZVyWFf27qOIw3veUp0ptK16lCOnaBKYaaG0ZitqP9wx58BKpfgb469_ymw3kxLMoYFyg44kwIBQMXOTUd029c7Cb5o-SyG2cJP-OkOsqIMqhxjqDmGiuw"
+                    <img class="rectangle1" src="https://cdn.discordapp.com/attachments/784876687376121916/798210482648776714/rectangle1.png"
                          alt="">
-                    <img class="rectangle2" src="https://psv4.userapi.com/c532036/u116093025/docs/d49/68f322ced0b3/rectangle2.png?extra=tV9HOPlrtexfy2fxeAJGmyyoCh4dzAfOGHQlJuIfP6ag4EktQ7OZm1sODnoJj_kU4lDKGhV5UPiTr1TrWyd6kw46XumO2oof378pkrIJhzKT5F6unCba-DBay3Pfn4oD5VYbetx8fF7pRrtFGZID8g"
+                    <img class="rectangle2" src="https://cdn.discordapp.com/attachments/784876687376121916/798210484980547624/rectangle2.png"
                          alt="">
                 </div>
 
@@ -417,9 +417,9 @@
                 </div>
 
                 <div class="rectangle-container">
-                    <img class="rectangle1" src="https://psv4.userapi.com/c532036/u116093025/docs/d21/8969934741e9/rectangle1.png?extra=TCekxZofHhZYnsjIVoIbQGbprv4pDD6IbZVyWFf27qOIw3veUp0ptK16lCOnaBKYaaG0ZitqP9wx58BKpfgb469_ymw3kxLMoYFyg44kwIBQMXOTUd029c7Cb5o-SyG2cJP-OkOsqIMqhxjqDmGiuw"
+                    <img class="rectangle1" src="https://cdn.discordapp.com/attachments/784876687376121916/798210482648776714/rectangle1.png"
                          alt="">
-                    <img class="rectangle2" src="https://psv4.userapi.com/c532036/u116093025/docs/d49/68f322ced0b3/rectangle2.png?extra=tV9HOPlrtexfy2fxeAJGmyyoCh4dzAfOGHQlJuIfP6ag4EktQ7OZm1sODnoJj_kU4lDKGhV5UPiTr1TrWyd6kw46XumO2oof378pkrIJhzKT5F6unCba-DBay3Pfn4oD5VYbetx8fF7pRrtFGZID8g"
+                    <img class="rectangle2" src="https://cdn.discordapp.com/attachments/784876687376121916/798210484980547624/rectangle2.png"
                          alt="">
                 </div>
 
@@ -442,29 +442,29 @@
                 </div>
 
                 <div class="rectangle-container">
-                    <img class="rectangle1" src="https://psv4.userapi.com/c532036/u116093025/docs/d21/8969934741e9/rectangle1.png?extra=TCekxZofHhZYnsjIVoIbQGbprv4pDD6IbZVyWFf27qOIw3veUp0ptK16lCOnaBKYaaG0ZitqP9wx58BKpfgb469_ymw3kxLMoYFyg44kwIBQMXOTUd029c7Cb5o-SyG2cJP-OkOsqIMqhxjqDmGiuw"
+                    <img class="rectangle1" src="https://cdn.discordapp.com/attachments/784876687376121916/798210482648776714/rectangle1.png"
                          alt="">
-                    <img class="rectangle2" src="https://psv4.userapi.com/c532036/u116093025/docs/d49/68f322ced0b3/rectangle2.png?extra=tV9HOPlrtexfy2fxeAJGmyyoCh4dzAfOGHQlJuIfP6ag4EktQ7OZm1sODnoJj_kU4lDKGhV5UPiTr1TrWyd6kw46XumO2oof378pkrIJhzKT5F6unCba-DBay3Pfn4oD5VYbetx8fF7pRrtFGZID8g"
+                    <img class="rectangle2" src="https://cdn.discordapp.com/attachments/784876687376121916/798210484980547624/rectangle2.png"
                          alt="">
                 </div>
 
             </div>
 
             <div class="elips-container">
-                <img class="yellow_elips" src="https://psv4.userapi.com/c532036/u116093025/docs/d15/30b46c3102ca/yellow_elips.png?extra=wpmm1ebOUGFA9RU-miJ2tvpUa5VVPkdqPNMB_MR-tHEVGQ3_PE--6Rqh6OyfXn5ENk94WYXEDCMrwF5_xLAtgyItU2d6nJ4erB4aIy3QV3_sTQ0ej8SRj-RrI9bBpyt7-xdIYGW4Goslr4r3W1egEA"
+                <img class="yellow_elips" src="https://cdn.discordapp.com/attachments/784876687376121916/798210474277208084/yellow_elips.png"
                      alt="">
-                <img class="green_elips" src="https://psv4.userapi.com/c532036/u116093025/docs/d34/f2bb7f7de8ea/green_elips.png?extra=QcFIiCDDQJNqGu1BK-5yx-6wmyulfFKbRisnICOYaL1rFbgy4bh2OyJEn70sHbdMQLyRNIkk7Kc26g7tvWk1P9HGuMn8mfPDEhPruEPecLb2omrot62XBLUJa-jEuFH7q_DBmSvP0o6D2OcBddlrDw"
+                <img class="green_elips" src="https://cdn.discordapp.com/attachments/784876687376121916/798210476705972234/green_elips.png"
                      alt="">
-                <img class="purple_elips" src="https://psv4.userapi.com/c532036/u116093025/docs/d27/c85c90f7b93e/purple_elips.png?extra=cpal2pYpWBmsxLeuNs2KG7n0Yr2baiCJ0dVvEDy117c8DJLFUeAKbES_CX6eUsURss9DqhgM9k_WEl7GB5PSMm26OzZY8hv7l5risoPJguQ6Xw33LBm8UqFLgEfgXj-WoJmaVfZMtmUsYcPWy-3VLQ"
+                <img class="purple_elips" src="https://cdn.discordapp.com/attachments/784876687376121916/798210488295096320/purple_elips.png"
                      alt="">
             </div>
 
             <div class="dishes-container">
-                <img class="tomato_dish" src="https://psv4.userapi.com/c532036/u116093025/docs/d50/36d9bd961d8b/tomato_dish.png?extra=zR0VHUs1_OW_jKHTBx_hQEXj_ZJfHMcQyp-8sqT94qEij5rda9cpeFri82RlUpsfAP02KAL3o_hW6oEilIOFUdxCWbkaKa22Am1Ns_-zUt32ohBwyExhHUmaOJYC7lHZTeSsVMR8iZIh24zF81Dbew"
+                <img class="tomato_dish" src="https://cdn.discordapp.com/attachments/784876687376121916/798210489820905472/tomato_dish.png"
                      alt="">
-                <img class="muesli" src="https://psv4.userapi.com/c532036/u116093025/docs/d27/fe69a2c7e697/muesli.png?extra=1tz1mavCV0hpoSfwpgYKXqu1NqUexj8A-CEIJCeHJ7xXhJKnHA76i7jTlwbgQK6JkNtiBZu0v5_e4H6X3_-5n3JxIDxZylFs3y6UiBDMOUdPXUeSvudJSlzomxhd5I3UteUxWymWP4JkitiYFfbnfQ"
+                <img class="muesli" src="https://cdn.discordapp.com/attachments/784876687376121916/798210483848478720/muesli.png"
                      alt="">
-                <img class="nuts" src="https://psv4.userapi.com/c532036/u116093025/docs/d27/2ad2dd4363e8/nuts.png?extra=JwR9CZk4tsiAqPjuK4E4lFinCgU9GgvYcJ5iIfI0B7K8H-sFEDwS6VGref8NXURkiL47jyPNN10aiVM3j38bDPbQOS1TSUDpw_yfsFRq3JKoh-1q7ml1VCe07RGnqfXtPEMuGqTcggcDnizUM8ypPQ"
+                <img class="nuts" src="https://cdn.discordapp.com/attachments/784876687376121916/798210484830339162/nuts.png"
                      alt="">
             </div>
 

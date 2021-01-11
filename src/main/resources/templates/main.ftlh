@@ -758,7 +758,7 @@
                 <img class="one" src="https://cdn.discordapp.com/attachments/784876687376121916/798208739961995274/1.png" alt="">
                 <img class="two" src="https://cdn.discordapp.com/attachments/784876687376121916/798208743698464828/2.png" alt="">
                 <img class="three" src="https://cdn.discordapp.com/attachments/784876687376121916/798208746856775710/3.png" alt="">
-                <img class="four" src=https://cdn.discordapp.com/attachments/784876687376121916/798208749977337856/4.png" alt="">
+                <img class="four" src="https://cdn.discordapp.com/attachments/784876687376121916/798208749977337856/4.png" alt="">
                 <img class="five" src="https://cdn.discordapp.com/attachments/784876687376121916/798208752524066896/5.png" alt="">
             </div>
 
