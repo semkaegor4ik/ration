@@ -155,7 +155,7 @@
         <nav class="desktop-nav">
             <div class="logo">
                 <a href="/">
-                    <img src="https://psv4.userapi.com/c856332/u35211733/docs/d4/db70a96df3ac/logo.png?extra=gOuaQzHaslVthhjf54Qvuu5RjgWodnhR_WGxGZPLBM1eIYSg5op9c2wdesY1o644SFkeniPtGv5clJs784ekT5on6asIr0lJi0Q9xGoSN48RCdpeA_w2aBkpyF4on5TYQSFE7RPwqRO8T73mFQ2-" alt="">
+                    <img src="https://cdn.discordapp.com/attachments/784876687376121916/798108262124748840/logo.png" alt="">
                 </a>
             </div>
 
@@ -170,7 +170,7 @@
             </ul>
 
             <div class="login-item">
-                <a href=""><img src="https://psv4.userapi.com/c856332/u35211733/docs/d16/a2a1b79e2d67/user.png?extra=3f-5MfOQlFYLy5iQV7_cKxiQYidZS4Z2KRKBcStGMW8rM5rakI_ohx4erW1h_55XIbt4GxPgyBMB0Qc5W2-4Xlg0UmZaOOShLkyj7ZIX7dY63nA1J_E7PPmoDR3Wy4k0dJ6kNJkU-CPq4_UHjEKP"></a>
+                <a href=""><img src="https://cdn.discordapp.com/attachments/784876687376121916/798109117666689074/icons8-----50_2.png"></a>
                 <#if name != "unknown">
                     <a href="" class="personal_area">Личный кабинет</a>
                     <ul class="submenu">

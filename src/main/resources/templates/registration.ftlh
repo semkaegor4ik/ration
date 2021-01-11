@@ -215,8 +215,8 @@
                 <h2>Это поможет нам подобрать для Вас необходимую суточную калорийность</h2>
             </div>
 
-            <img class="info-bg" src="https://psv4.userapi.com/c856332/u35211733/docs/d11/a00d305dde23/InfoBG.png?extra=GUNw1xIv6aOBSz2W2ieNd45K5Uaxw8y82narUB6j9AGG72eG5lHHrpc86KL5J3d6lkA2_OwcH5aF_u2F7IwuwCKKzwgigKlXCt__QfGi5ex6DnPmQsY-_EmHq3Sylw-sGd0JacQp0sJ6ndEBGnXs" alt="">
-            <img class="spices" src="https://psv4.userapi.com/c537232/u35211733/docs/d1/bb982db9ebec/spices.png?extra=YTVW9v99hyRFLlPPgZvOycM5zOoybwVTaGLjLAWLYFY4Klp-vD2GoTicqNT6teAFQMpHvOaZCuuq29h15bHR5XYurhCkD4-sK7qHIbmLOk6sex4nyJHmeTOaf8rOwzWc-52xYye76UJCxnas9TK-" alt="">
+            <img class="info-bg" src="https://cdn.discordapp.com/attachments/784876687376121916/798109665308180500/InfoBG.png" alt="">
+            <img class="spices" src="https://cdn.discordapp.com/attachments/784876687376121916/798109789053386792/image_17.png" alt="">
 
         </header>
         <form action="/registration" method="post"  class="form">
