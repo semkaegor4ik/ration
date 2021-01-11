@@ -23,8 +23,8 @@ public class User implements UserDetails {
     private String email;
     @Enumerated(EnumType.STRING)
     private Gender gender;
-    private double weight;
-    private double height;
+    private int weight;
+    private int height;
     private int age;
     @Enumerated(EnumType.STRING)
     private Activity activity;

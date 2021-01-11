@@ -97,7 +97,7 @@
                 text-align: center;
             }
 
-            .questions input[type="text"] {
+            .questions input[type="text"], .questions input[type="password"], .questions input[type="email"]{
                 box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
                 border-radius: 12px;
                 border-color: #FFFFFF;
@@ -222,10 +222,10 @@
         <form action="/registration" method="post"  class="form">
             <div class="questions">
                 <p>Почта</p>
-                <input type="text" name="email" required="required">
+                <input type="email" name="email" required="required">
 
                 <p>Пароль</p>
-                <input type="text" name="password" required="required">
+                <input type="password" name="password" required="required">
 
                 <p>Пол</p>
                 <!-- <input type="text" name="gender"> -->
@@ -235,13 +235,13 @@
                     </select></p>
 
                 <p>Рост (см)</p>
-                <input type="text" name="height" required="required">
+                <input type="text" pattern="[0-9]\d*" name="height" >
 
                 <p>Вес (кг)</p>
-                <input type="text" name="weight" required="required">
+                <input type="text" pattern="[0-9]\d*" name="weight" >
 
                 <p>Возраст</p>
-                <input type="text" name="age" required="required">
+                <input type="text" pattern="[0-9]\d*" name="age" >
 
                 <p class="sblock">Укажите в поле номер варианта, который характеризует Ваш образ жизни</p>
 

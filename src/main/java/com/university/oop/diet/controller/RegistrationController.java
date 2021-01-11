@@ -53,7 +53,7 @@ public class RegistrationController {
         user.setActive(true);
         user.setRoles(Collections.singleton(Role.USER));
         userRepo.save(user);
-        return "registration";
+        return "redirect:/";
     }
 
 
@@ -68,8 +68,8 @@ public class RegistrationController {
     public String changeUser(@RequestParam String email,
                              @RequestParam String password,
                              @RequestParam Gender gender,
-                             @RequestParam Double height,
-                             @RequestParam Double weight,
+                             @RequestParam int height,
+                             @RequestParam int weight,
                              @RequestParam int age,
                              @RequestParam Activity activity)
     {

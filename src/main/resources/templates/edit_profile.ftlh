@@ -97,7 +97,7 @@
                 text-align: center;
             }
 
-            .questions input[type="text"] {
+            .questions input[type="text"], .questions input[type="password"], .questions input[type="email"]{
                 box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
                 border-radius: 12px;
                 border-color: #FFFFFF;
@@ -222,33 +222,31 @@
         <form action="/edit_profile" method="post"  class="form">
             <div class="questions">
                 <p>Почта</p>
-                <input type="text" name="email" value="${us.email}">
+                <input type="email" name="email" value="${us.email}">
 
                 <p>Пароль</p>
-                <input type="text" name="password" value="${us.password}">
+                <input type="password" name="password" value="${us.password}">
 
                 <p>Пол</p>
                 <!-- <input type="text" name="gender"> -->
                 <p><select name="gender">
-                        <option value="FEMALE">Женский</option>
-                        <option value="MALE">Мужской</option>
-                        <option selected disabled hidden >
-                            <#if us.gender == "FEMALE">
-                                Женский
-                            <#else>
-                                Мужской
-                            </#if>
-                        </option>
+                        <#if us.gender == "FEMALE">
+                            <option value="FEMALE">Женский</option>
+                            <option value="MALE">Мужской</option>
+                        <#else>
+                            <option value="MALE">Мужской</option>
+                            <option value="FEMALE">Женский</option>
+                        </#if>
                     </select></p>
 
                 <p>Рост (см)</p>
-                <input type="text" name="height" value="${us.height}">
+                <input type="text" pattern="^0[1-9]\d$" name="height" value="${us.height}">
 
                 <p>Вес (кг)</p>
-                <input type="text" name="weight" value="${us.weight}">
+                <input type="text" pattern="^0[1-9]\d$" name="weight" value="${us.weight}">
 
                 <p>Возраст</p>
-                <input type="text" name="age" value="${us.age}">
+                <input type="text" pattern="^0[1-9]\d$" name="age" value="${us.age}">
 
                 <p class="sblock">Укажите в поле номер варианта, который характеризует Ваш образ жизни</p>
 
@@ -263,25 +261,37 @@
                 </ol>
 
                 <p><select name="activity">
-
-                        <option value="MINIMUM">Минимальная</option>
-                        <option value="LOW">Слабая</option>
-                        <option value="NORMAL">Средняя</option>
-                        <option value="HIGH">Высокая</option>
-                        <option value="EXTRA">Экстра</option>
-                        <option selected disabled hidden>
-                            <#if us.activity == "MINIMUM">
-                                Минимальная
-                            <#elseif us.activity == "LOW">
-                                Слабая
-                            <#elseif us.activity == "NORMAL">
-                                Средняя
-                            <#elseif us.activity == "HIGH">
-                                Высокая
-                            <#else>
-                                Экстра
-                            </#if>
-                        </option>
+                        <#if us.activity == "MINIMUM">
+                            <option value="MINIMUM">Минимальная</option>
+                            <option value="LOW">Слабая</option>
+                            <option value="NORMAL">Средняя</option>
+                            <option value="HIGH">Высокая</option>
+                            <option value="EXTRA">Экстра</option>
+                        <#elseif us.activity == "LOW">
+                            <option value="LOW">Слабая</option>
+                            <option value="MINIMUM">Минимальная</option>
+                            <option value="NORMAL">Средняя</option>
+                            <option value="HIGH">Высокая</option>
+                            <option value="EXTRA">Экстра</option>
+                        <#elseif us.activity == "NORMAL">
+                            <option value="NORMAL">Средняя</option>
+                            <option value="MINIMUM">Минимальная</option>
+                            <option value="LOW">Слабая</option>
+                            <option value="HIGH">Высокая</option>
+                            <option value="EXTRA">Экстра</option>
+                        <#elseif us.activity == "HIGH">
+                            <option value="HIGH">Высокая</option>
+                            <option value="MINIMUM">Минимальная</option>
+                            <option value="LOW">Слабая</option>
+                            <option value="NORMAL">Средняя</option>
+                            <option value="EXTRA">Экстра</option>
+                        <#else>
+                            <option value="EXTRA">Экстра</option>
+                            <option value="MINIMUM">Минимальная</option>
+                            <option value="LOW">Слабая</option>
+                            <option value="NORMAL">Средняя</option>
+                            <option value="HIGH">Высокая</option>
+                        </#if>
                     </select></p>
             </div>
             <div><input type="submit" class="bttn" value="Сохранить" /></div>
