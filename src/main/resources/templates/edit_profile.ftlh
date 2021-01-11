@@ -240,13 +240,13 @@
                     </select></p>
 
                 <p>Рост (см)</p>
-                <input type="text" pattern="^0[1-9]\d$" name="height" value="${us.height}">
+                <input type="text" pattern="[0-9]\d*" name="height" value="${us.height}">
 
                 <p>Вес (кг)</p>
-                <input type="text" pattern="^0[1-9]\d$" name="weight" value="${us.weight}">
+                <input type="text" pattern="[0-9]\d*" name="weight" value="${us.weight}">
 
                 <p>Возраст</p>
-                <input type="text" pattern="^0[1-9]\d$" name="age" value="${us.age}">
+                <input type="text" pattern="[0-9]\d*" name="age" value="${us.age}">
 
                 <p class="sblock">Укажите в поле номер варианта, который характеризует Ваш образ жизни</p>
 
