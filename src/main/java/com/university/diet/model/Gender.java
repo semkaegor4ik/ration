@@ -1,9 +1,10 @@
-package com.university.oop.diet.model;
+package com.university.diet.model;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 
-@AllArgsConstructor
+
+@RequiredArgsConstructor
 @Getter
 public enum Gender {
     MALE(66, 13.7, 5, 6.8),

@@ -1,11 +1,10 @@
-package com.university.oop.diet.model;
+package com.university.diet.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 
 @Getter
-@AllArgsConstructor
+@RequiredArgsConstructor
 public enum Activity {
     MINIMUM(1),
     LOW(1.3),

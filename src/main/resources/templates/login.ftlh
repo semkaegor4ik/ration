@@ -16,7 +16,7 @@
             --green-color: #36D633;
             --orange-color: #EC8032;
             --orange-hover-color: #ff8732;
-            --green-hover-color: #37e735;
+            --green-hover-color: #20851e;
         }
 
         * {

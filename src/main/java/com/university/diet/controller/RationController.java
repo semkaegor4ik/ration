@@ -1,10 +1,9 @@
-package com.university.oop.diet.controller;
+package com.university.diet.controller;
 
-import com.university.oop.diet.model.NormalRecipe;
-import com.university.oop.diet.model.RecipeType;
-import com.university.oop.diet.model.User;
-import com.university.oop.diet.service.RecipeBuilderService;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.university.diet.model.RecipeType;
+import com.university.diet.service.RecipeBuilderService;
+import com.university.diet.model.User;
+import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -12,10 +11,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
+@RequiredArgsConstructor
 @RequestMapping("/ration")
 public class RationController {
-    @Autowired
-    private RecipeBuilderService recipeBuilderService;
+    private final RecipeBuilderService recipeBuilderService;
 
     @GetMapping()
     public String getRecipes(@AuthenticationPrincipal User user, Model model) {

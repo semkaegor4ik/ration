@@ -1,4 +1,4 @@
-package com.university.oop.diet.model;
+package com.university.diet.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

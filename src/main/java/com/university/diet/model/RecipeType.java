@@ -1,9 +1,10 @@
-package com.university.oop.diet.model;
+package com.university.diet.model;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 
-@AllArgsConstructor
+
+@RequiredArgsConstructor
 @Getter
 public enum RecipeType {
     BREAKFAST(0.25),

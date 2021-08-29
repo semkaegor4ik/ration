@@ -1,7 +1,7 @@
-package com.university.oop.diet.repository;
+package com.university.diet.repository;
 
-import com.university.oop.diet.model.Recipe;
-import com.university.oop.diet.model.RecipeType;
+import com.university.diet.model.RecipeType;
+import com.university.diet.model.Recipe;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

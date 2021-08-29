@@ -1,23 +1,19 @@
-package com.university.oop.diet.service;
+package com.university.diet.service;
 
-import com.university.oop.diet.model.User;
-import com.university.oop.diet.model.UserDto;
-import com.university.oop.diet.repository.UserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.university.diet.repository.UserRepository;
+import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
 @Service
+@RequiredArgsConstructor
 public class UserService implements UserDetailsService {
+    private final UserRepository userRepo;
 
-    @Autowired
-    private UserRepository userRepo;
     @Override
     public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
-
         return userRepo.findByEmail(email);
     }
 }

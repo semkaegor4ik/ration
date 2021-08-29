@@ -1,16 +1,18 @@
-package com.university.oop.diet.service;
+package com.university.diet.service;
 
-import com.university.oop.diet.model.Recipe;
-import com.university.oop.diet.repository.RecipeRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.university.diet.model.Recipe;
+import com.university.diet.model.RecipeType;
+import com.university.diet.repository.RecipeRepository;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
+@RequiredArgsConstructor
 public class RecipeServiceImpl implements RecipeService {
-    @Autowired
-    private RecipeRepository recipeRepository;
+
+    private final RecipeRepository recipeRepository;
 
     @Override
     public Recipe getById(Long id) {
@@ -30,5 +32,10 @@ public class RecipeServiceImpl implements RecipeService {
     @Override
     public List<Recipe> getAll() {
         return recipeRepository.findAll();
+    }
+
+    @Override
+    public List<Recipe> findByRecipeType(RecipeType recipeType) {
+        return recipeRepository.findByRecipeType(recipeType);
     }
 }
